@@ -29,12 +29,12 @@ const FeedHeader = () => {
          <section>
             <section className="flex gap-[24px]">
                <section className="flex gap-[13px]">
-               <div className="bg-[#F8F8F9] h-[40px] w-[40px] rounded-[9px] flex items-center justify-center">
+               <button className="bg-[#F8F8F9] h-[40px] w-[40px] rounded-[9px] flex items-center justify-center">
                    <WithNotifications />
-               </div>
-               <div  className="bg-[#F8F8F9] h-[40px] w-[40px] rounded-[9px] flex items-center justify-center">
+               </button>
+               <button  className="bg-[#F8F8F9] h-[40px] w-[40px] rounded-[9px] flex items-center justify-center">
                   <WithNotifications />
-               </div>
+               </button>
                </section>
                <section>
                   <div className="flex gap-[5px]">

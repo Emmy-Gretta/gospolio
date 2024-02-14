@@ -15,8 +15,8 @@ const FeedSidebar = () => {
     <>
       <section className="ml-5">
         <section>
-          <section className="bg-white mt-10 w-[270px] h-[180px] flex items-center justify-center rounded-[15px]">
-            <section className="bg-[#F8F8F9] w-[230px] h-[140px] rounded-[15px] flex items-center justify-center">
+          <section className="bg-white mt-10 w-[270px] h-[170px] flex items-center justify-center rounded-[15px]">
+            <section className="bg-[#F8F8F9] w-[240px] h-[140px] rounded-[15px] flex items-center justify-center">
               <section className="flex flex-col gap-5">
                 <section>
                   <div className="flex gap-[10px]">
@@ -72,9 +72,9 @@ const FeedSidebar = () => {
               </section>
             </section>
           </section>
-          <section className="flex flex-col items-center justify-center rounded-[15px] mt-5 bg-white w-[270px]">
-            <section className="flex flex-col gap-5 mt-5">
-              <button className="flex gap-[40px] items-center bg-[#FF94EE] w-[260px] h-[40px] rounded-[40px] justify-center hover:bg-[#ffccf7]">
+          <section className="flex flex-col items-center justify-center rounded-[15px] mt-4 bg-white w-[270px]">
+            <section className="flex flex-col gap-5 mt-4">
+              <button className="flex gap-[40px] items-center bg-[#FF94EE] w-[260px] h-[35px] rounded-[40px] justify-center hover:bg-[#ffccf7]">
                 <div className="flex  gap-[19px]">
                   <Feed />
                   <p className="text-[#0048FF] text-[14px] font-[500]">
@@ -88,29 +88,29 @@ const FeedSidebar = () => {
                 </div>
               </button>
               <div className="flex flex-col gap-5 ml-10">
-                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[40px] hover:rounded-full hover:p-5">
+                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[30px] rounded-[15px] hover:p-3">
                   <Messages />
                   <p className="font-[600] text-[14px]">Messages</p>
                 </button>
-                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[40px] hover:rounded-full hover:p-5">
+                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[30px] rounded-[15px] hover:p-3">
                   <Events />
                   <p className="font-[600] text-[14px]">Events</p>
                 </button>
-                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[40px] hover:rounded-full hover:p-5">
+                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[30px] rounded-[15px] hover:p-3">
                   <WatchVideos />
                   <p className="font-[600] text-[14px]">Watch videos</p>
                 </button>
-                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[40px] hover:rounded-full hover:p-5">
+                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[30px] rounded-[15px] hover:p-3">
                   <Photos />
                   <p className="font-[600] text-[14px]">Photos</p>
                 </button>
-                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[40px] hover:rounded-full hover:p-5">
+                <button className="flex gap-[19px] items-center hover:bg-[#ccc] hover:h-[30px] rounded-[15px] hover:p-3">
                   <Post />
                   <p className="font-[600] text-[14px]">My post</p>
                 </button>
               </div>
             </section>
-            <section className="m-10">
+            <section className="m-7">
               <Image
                 src="/Profile/FeedBar.svg"
                 width={1000}
@@ -210,8 +210,8 @@ const FeedSidebar = () => {
             </section>
           </section>
           <section>
-            <section className="flex  mb-14">
-              <div className="w-[230px] h-[200px] bg-[#76BDFF] rounded-[20px] mt-16">
+            <section className="flex  mb-12">
+              <div className="w-[230px] h-[190px] bg-[#76BDFF] rounded-[20px] mt-8">
                 <div className="w-[40px] h-[40px] bg-white m-5 rounded-xl flex justify-center items-center">
                   <Image
                     src="/Profile/Help.svg"
@@ -220,22 +220,22 @@ const FeedSidebar = () => {
                     alt="Help"
                   />
                 </div>
-                <div className="ml-5 mt-5 text-[#fff] text-[12px]">
+                <div className="ml-5 mt-4 text-[#fff] text-[12px]">
                   <p className="font-[700]">Need help?</p>
                   <p className="font-[300]">Please check our docs</p>
                 </div>
-                <div className="flex items-center justify-center mt-5">
-                  <button className="bg-white text-[12px] text-[#2D3748] font-[600] h-[40px] w-[190px] rounded-[12px] hover:bg-[#e1dddd]">
+                <div className="flex items-center justify-center mt-4">
+                  <button className="bg-white text-[12px] text-[#2D3748] font-[600] h-[35px] w-[190px] rounded-[12px] hover:bg-[#e1dddd]">
                     Documentation
                   </button>
                 </div>
               </div>
             </section>
           </section>
-          <section className="mb-10">
+          <section className="mb-6">
           <section className="flex gap-5">
             <Logout />
-            <h1 className="text-[#8D9297] font-[600]">LOGOUT</h1>
+            <h1 className="text-[#8D9297] font-[600] text-[14px]">LOGOUT</h1>
           </section>
           </section>
         </section>

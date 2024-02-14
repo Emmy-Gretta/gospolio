@@ -1,5 +1,6 @@
 import FeedHeader from "@/Components/Headers/FeedHeader";
 import FeedContent from "@/Components/MiddleContent/FeedMiddleContent";
+import FeedRightSidebar from "@/Components/RightSidebar/FeedRightSidebar";
 import FeedSidebar from "@/Components/Sidebars/FeedSideBar";
 
 const page = () => {
@@ -14,6 +15,9 @@ const page = () => {
           </section>
           <section className="w-[50%] ml-5 pt-10">
             <FeedContent />
+          </section>
+          <section className="w-[25%] pt-10 ml-5">
+            <FeedRightSidebar />
           </section>
       </section>
       </>
