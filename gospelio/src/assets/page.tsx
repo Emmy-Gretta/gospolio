@@ -482,7 +482,7 @@ export const Like = () => {
 
 export const Menu = () => {
   return (
-    <svg width="6" height="28" viewBox="0 0 6 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="6" height="20" viewBox="0 0 6 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M3 28C1.34315 28 0 26.7464 0 25.2C0 23.6536 1.34315 22.4 3 22.4C4.65685 22.4 6 23.6536 6 25.2C6 26.7464 4.65685 28 3 28Z" fill="black"/>
 <path d="M3 16.8C1.34315 16.8 0 15.5464 0 14C0 12.4536 1.34315 11.2 3 11.2C4.65685 11.2 6 12.4536 6 14C6 15.5464 4.65685 16.8 3 16.8Z" fill="black"/>
 <path d="M3 5.6C1.34315 5.6 0 4.3464 0 2.8C0 1.2536 1.34315 0 3 0C4.65685 0 6 1.2536 6 2.8C6 4.3464 4.65685 5.6 3 5.6Z" fill="black"/>
